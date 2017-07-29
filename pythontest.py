@@ -23,11 +23,6 @@ class Personne:
 class Zdict:
     def __init__(self,name):
         self.name = name
-    def __contains__(self,objet):
-        if(self.name == objet):
-            return True
-        else:
-            return False
 
 class Duree:
     def __init__(self,minutes,secondes):
